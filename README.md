@@ -23,7 +23,7 @@ API functions can be called via the global `wp.hooks` like this `wp.hooks.addAct
 
 ### Features
 
-* Fast and lightweight, only 1.3kb
+* Fast and lightweight, only 1.7kb
 * Priorities system ensures hooks with lower integer priority are fired first.
 * Uses native object hash lookup for finding hook callbacks.
 * Utilizes insertion sort for keeping priorities correct. Best Case: O(n), worst case: O(n^2)
